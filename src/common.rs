@@ -1256,7 +1256,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "https://jjxb.dpdns.org".to_owned()
+    "http://jjxb.dpdns.org:21114".to_owned()
 }
 
 #[inline]
